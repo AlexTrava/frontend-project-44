@@ -4,3 +4,6 @@
 
 <a href="https://codeclimate.com/github/AlexTrava/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/471e3080e64b578933a1/maintainability" /></a>
 
+
+[![asciicast](https://asciinema.org/a/eNb63hD8TVDHnOjmULrMjzjtF.svg)](https://asciinema.org/a/eNb63hD8TVDHnOjmULrMjzjtF)
+
