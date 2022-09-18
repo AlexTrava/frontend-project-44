@@ -17,8 +17,8 @@ export default (rule, start) => {
     } else {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${rightAnswer}'.`);
       console.log(`Let's try again, ${name}!`);
-      break;
+      return;
     }
-    console.log(`Congratulations, ${name}!`);
   }
+  console.log(`Congratulations, ${name}!`);
 };
