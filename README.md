@@ -13,6 +13,12 @@ npm install
 npm link
 ```
 
+#Brain-list
+Для информации об установленных играх введите команду:
+```
+brain-list
+```
+
 
 3.Brain-even:
 [![asciicast](https://asciinema.org/a/eNb63hD8TVDHnOjmULrMjzjtF.svg)](https://asciinema.org/a/eNb63hD8TVDHnOjmULrMjzjtF)
