@@ -6,6 +6,7 @@
 1. Склонируйте репозиторий:
 ```
 git clone https://github.com/AlexTrava/frontend-project-44
+
 2. Установите игры командами:
 ```
 npm install
