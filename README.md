@@ -2,8 +2,17 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/AlexTrava/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/AlexTrava/frontend-project-44/actions) <a href="https://codeclimate.com/github/AlexTrava/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/471e3080e64b578933a1/maintainability" /></a>
 
+# Игры Brain-games.
+1. Склонируйте репозиторий:
+```
+git clone https://github.com/AlexTrava/frontend-project-44
+2. Установите игры командами:
+```
+npm install
+npm link
 
-1.Brain-even:
+
+3.Brain-even:
 [![asciicast](https://asciinema.org/a/eNb63hD8TVDHnOjmULrMjzjtF.svg)](https://asciinema.org/a/eNb63hD8TVDHnOjmULrMjzjtF)
 
 2.Brain-calc:
