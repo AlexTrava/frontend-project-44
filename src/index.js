@@ -4,9 +4,9 @@ const round = 3;
 
 export default (rule, start) => {
   console.log('Welcome to the Brain Games!');
-  const name = readlineSync.question('May I have your name?');
+  const name = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${name}!`);
-  console.log(rule); // показываем вопрос игры
+  console.log(rule);
 
   for (let i = 0; i < round; i += 1) {
     const [numberQuestion, rightAnswer] = start();
