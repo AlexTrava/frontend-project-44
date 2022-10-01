@@ -1,9 +1,5 @@
-import run from './index.js';
-
-const randomNumber = (min, max) => {
-  const result = Math.floor(Math.random() * (max - min + 1)) + min;
-  return result;
-};
+import run from '../index.js';
+import randomNumber from '../random.js';
 
 const findGcd = (numberOne, numberTwo) => {
   if (numberTwo === 0) {

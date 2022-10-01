@@ -8,6 +8,7 @@ brain-games:
 		node bin/brain-gcd.js
 		node bin/brain-progression.js
 		node bin/brain-prime.js
+		node bin/brain-list.js
 
 publish:
 		npm publish --dry-run

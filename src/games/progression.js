@@ -1,15 +1,11 @@
-import run from './index.js';
+import run from '../index.js';
+import randomNumber from '../random.js';
 
 const rule = 'What number is missing in the progression?';
 let rightAnswer = 0;
 const minRange = 1;
 const maxRange = 5;
 const lengthProgression = 10;
-
-const randomNumber = (min, max) => {
-  const result = Math.floor(Math.random() * (max - min + 1)) + min;
-  return result;
-};
 
 const getProgression = (stepProgression) => {
   const progression = [randomNumber(minRange, maxRange)];
