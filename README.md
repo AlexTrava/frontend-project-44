@@ -13,13 +13,15 @@ npm install
 npm link
 ```
 
-#### Brain-list
+### Brain List
+### Список игр
+
 Для информации об установленных играх введите команду:
 ```
 brain-list
 ```
 
-#### Brain-even:
+### Brain Even
 #### Игра: "Проверка на чётность"
 ```
 brain-even
