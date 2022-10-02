@@ -30,7 +30,7 @@ const start = () => {
   const numberOne = randomNumber(minRange, maxRange);
   const numberTwo = randomNumber(minRange, maxRange);
   const charOperator = randomChar(char);
-  const numberQuestion = `${numberOne}${charOperator}${numberTwo}`;
+  const numberQuestion = `${numberOne} ${charOperator} ${numberTwo}`;
   rightAnswer = String(resultCalculate(numberOne, numberTwo, charOperator));
 
   return [numberQuestion, rightAnswer];
