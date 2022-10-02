@@ -10,7 +10,7 @@ export default (rule, start) => {
 
   for (let i = 0; i < round; i += 1) {
     const [numberQuestion, rightAnswer] = start();
-    console.log(`Question:${numberQuestion}`);
+    console.log(`Question: ${numberQuestion}`);
     const userAnswer = readlineSync.question('Your answer:');
     if (rightAnswer === userAnswer) {
       console.log('Correct!');
