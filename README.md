@@ -3,6 +3,12 @@
 [![Actions Status](https://github.com/AlexTrava/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/AlexTrava/frontend-project-44/actions) <a href="https://codeclimate.com/github/AlexTrava/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/471e3080e64b578933a1/maintainability" /></a>
 
 #### Игры Brain-games.
+
+* Минимальные системные требования:
++ Операционная система: Linux,Windows 10 и выше;
++ Терминал
++ node.js v17.9.0 и выше.
+
 1. Склонируйте репозиторий:
 ```
 git clone https://github.com/AlexTrava/frontend-project-44
