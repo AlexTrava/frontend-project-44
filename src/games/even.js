@@ -7,7 +7,7 @@ const checkChet = (number) => {
   }
   return 'no';
 };
-const rule = 'Answer \'yes\' if the number is even, otherwise answer \'no\'.';
+const rule = 'Answer "yes" if the number is even, otherwise answer "no".';
 const minRange = 1;
 const maxRange = 10;
 
