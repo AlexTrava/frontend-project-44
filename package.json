@@ -2,7 +2,7 @@
   "name": "@hexlet/code",
   "type": "module",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/AlexTrava/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/AlexTrava/frontend-project-44/actions)",
+  "description": " Project brain-game (five logic games)",
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
@@ -27,7 +27,6 @@
   },
   "homepage": "https://github.com/AlexTrava/frontend-project-44#readme",
   "dependencies": {
-    "package.json": "^0.0.0",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {

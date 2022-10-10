@@ -7,15 +7,14 @@ const checkChet = (number) => {
   }
   return 'no';
 };
-const rule = 'Answer \'yes\' if number even otherwise answer \'no\'.';
-let rightAnswer = 'yes';
+const rule = 'Answer \'yes\' if the number is even, otherwise answer \'no\'.';
 const minRange = 1;
 const maxRange = 10;
 
 const start = () => {
-  const numberQuestion = randomNumber(minRange, maxRange);
-  rightAnswer = checkChet(numberQuestion);
-  return [numberQuestion, rightAnswer];
+  const question = randomNumber(minRange, maxRange);
+  const rightAnswer = checkChet(question);
+  return [question, rightAnswer];
 };
 
 export default () => {

@@ -9,17 +9,16 @@ const findGcd = (numberOne, numberTwo) => {
 };
 
 const rule = 'Find the greatest common divisor of given numbers.';
-let rightAnswer = 0;
 const minRange = 1;
 const maxRange = 100;
 
 const start = () => {
   const numberOne = randomNumber(minRange, maxRange);
   const numberTwo = randomNumber(minRange, maxRange);
-  const numberQuestion = `${numberOne} ${numberTwo}`;
-  rightAnswer = String(findGcd(numberOne, numberTwo));
+  const question = `${numberOne} ${numberTwo}`;
+  const rightAnswer = String(findGcd(numberOne, numberTwo));
 
-  return [numberQuestion, rightAnswer];
+  return [question, rightAnswer];
 };
 
 export default () => {
