@@ -1,7 +1,7 @@
 import run from '../index.js';
 import randomNumber from '../random.js';
 
-const rule = 'Answer \'yes\' if given number is prime. Otherwise answer \'no\'.';
+const rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const minRange = 1;
 const maxRange = 50;
 
