@@ -1,5 +1,5 @@
 import run from '../index.js';
-import randomNumber from '../random.js';
+import getRandomNumber from '../random.js';
 
 const rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const minRange = 1;
@@ -15,11 +15,10 @@ const isPrime = (number) => {
 };
 
 const start = () => {
-  const randomNumberPrime = randomNumber(minRange, maxRange);
-  const question = randomNumberPrime;
+  const randomNumberPrime = getRandomNumber(minRange, maxRange);
   const rightAnswer = isPrime(randomNumberPrime) ? 'yes' : 'no';
 
-  return [question, rightAnswer];
+  return [randomNumberPrime, rightAnswer];
 };
 
 export default () => {

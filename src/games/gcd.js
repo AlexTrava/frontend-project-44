@@ -1,5 +1,5 @@
 import run from '../index.js';
-import randomNumber from '../random.js';
+import getRandomNumber from '../random.js';
 
 const findGcd = (numberOne, numberTwo) => {
   if (numberTwo === 0) {
@@ -13,8 +13,8 @@ const minRange = 1;
 const maxRange = 100;
 
 const start = () => {
-  const numberOne = randomNumber(minRange, maxRange);
-  const numberTwo = randomNumber(minRange, maxRange);
+  const numberOne = getRandomNumber(minRange, maxRange);
+  const numberTwo = getRandomNumber(minRange, maxRange);
   const question = `${numberOne} ${numberTwo}`;
   const rightAnswer = String(findGcd(numberOne, numberTwo));
 

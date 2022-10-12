@@ -1,9 +1,9 @@
 import run from '../index.js';
-import randomNumber from '../random.js';
+import getRandomNumber from '../random.js';
 
 const operationList = ['+', '-', '*'];
 
-const randomOperation = (array) => array[randomNumber(0, 2)];
+const randomOperation = (array) => array[getRandomNumber(0, array.length - 1)];
 
 const rule = 'What is the result of the expression?';
 const minRange = 1;
@@ -18,13 +18,13 @@ const resultCalculate = (numberOne, numberTwo, charOperation) => {
     case '*':
       return numberOne * numberTwo;
     default:
-      return Error(`Wrong operation ${charOperation}`);
+      throw new Error(`Wrong operation: '${charOperation}'.`);
   }
 };
 
 const start = () => {
-  const numberOne = randomNumber(minRange, maxRange);
-  const numberTwo = randomNumber(minRange, maxRange);
+  const numberOne = getRandomNumber(minRange, maxRange);
+  const numberTwo = getRandomNumber(minRange, maxRange);
   const charOperation = randomOperation(operationList);
   const question = `${numberOne} ${charOperation} ${numberTwo}`;
   const rightAnswer = String(resultCalculate(numberOne, numberTwo, charOperation));
